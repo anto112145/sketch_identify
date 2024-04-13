@@ -1,0 +1,45 @@
+body{
+    background-color:pink;
+}
+#show_sketch{
+    float: right;
+    font-size: 20px;
+    background-color: lightblue;
+}
+.lel{
+    font-size: 30px;
+    font-weight: 1000;
+}
+canvas{
+    margin-top: 100px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    animation: rainbow 500ms infinite;
+    background-color: white;
+}
+@keyframes rainbow{
+    0%{
+        box-shadow: 5px 5px 38px red;
+    }
+    25%{
+        box-shadow: 5px 5px 38px blue;
+    }
+    50%{
+        box-shadow: 5px 5px 38px green;
+    }
+    75%{
+        box-shadow: 5px 5px 38px magenta;
+    }
+    100%{
+        box-shadow: 5px 5px 38px yellow;
+    }
+}
+#sketches{
+    background-color: white;
+    opacity: 90%;
+}
+#close{
+    margin-left: 700px;
+    position: fixed;
+}
